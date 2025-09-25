@@ -1,7 +1,7 @@
 from helper import User
 
 def main():
-    user = User(name="Алексей", age=34)
+    user = User(name="Толян", age=30)
 
     print(f"Имя: {user.name}, возраст: {user.age}")
     if user.is_adult():
